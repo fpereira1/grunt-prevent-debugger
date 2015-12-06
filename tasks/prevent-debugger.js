@@ -8,7 +8,7 @@ var defaultDisallowed = require('./lib/default-disallowed');
 
 module.exports = function (grunt) {
 
-  grunt.registerMultiTask('ddescribe-iit', 'Check for instances of ddescribe and iit', function () {
+  grunt.registerMultiTask('prevent-debugger', 'Check for instances of debugger', function () {
     var done = this.async();
     var options = this.options({
       // Default values

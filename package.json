@@ -1,7 +1,7 @@
 {
-  "name": "grunt-ddescribe-iit",
+  "name": "grunt-prevent-debugger",
   "version": "0.0.6",
-  "description": "Grunt task for checking that iit and ddescribe don't make it into committed code",
+  "description": "Grunt task for checking that debugger don't make it into committed code",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "grunt test"
@@ -20,12 +20,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/btford/grunt-ddescribe-iit"
+    "url": "git://github.com/fpereira1/grunt-prevent-debugger"
   },
   "keywords": [
     "grunt",
     "gruntplugin"
   ],
-  "author": "Brian Ford",
+  "author": "Filype Pereira",
   "license": "BSD"
 }
