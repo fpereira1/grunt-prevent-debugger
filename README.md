@@ -32,21 +32,8 @@ Simple:
 "prevent-debugger": {
   files: [
     'test/**/*.js',
-    '!test/ngScenario/DescribeSpec.js' // ignore this guy
+    '!test/ngScenario/DebuggerHelper.js' // ignore this guy
   ]
-}
-```
-
-Custom disallowed keywords list:
-
-```js
-"prevent-debugger": {
-  files: [
-    'test/**/*.js',
-  ],
-  options: {
-    disallowed: ['ddescribe', 'iit']
-  }
 }
 ```
 
