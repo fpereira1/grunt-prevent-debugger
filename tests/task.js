@@ -8,7 +8,7 @@ describe('Task: ddescribe-iit', function () {
   it('should report multiple errors', function (done) {
     this.timeout(10000);
 
-    var gruntProcess = spawn('grunt', ['ddescribe-iit'], {
+    var gruntProcess = spawn('grunt', ['prevent-debugger'], {
       cwd: __dirname + '/..',
     });
 
@@ -27,8 +27,10 @@ describe('Task: ddescribe-iit', function () {
       }
 
       should(output.split('\n').filter(function (line) {
-        return line.indexOf('fdescribe') > -1 || line.indexOf('fit') > -1;
-      })).have.lengthOf(3);
+        console.log(line);
+        return line.indexOf('at line') > -1;
+      })).have.lengthOf(2);
+
       done();
     });
   });

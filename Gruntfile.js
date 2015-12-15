@@ -30,7 +30,7 @@ module.exports = function (grunt) {
       }
     },
 
-    'ddescribe-iit': {
+    'prevent-debugger': {
       all: {
         src: [
           'tests/fixtures/*.js'

@@ -1,3 +1,5 @@
-fdescribe('fdescribe 1', function () {
-  fit('fit 1');
+debugger;
+
+describe('fdescribe 1', function () {
+  it('fit 1');
 });

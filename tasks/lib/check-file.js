@@ -1,9 +1,10 @@
 function disallowedIndex(largeString, disallowedString) {
-  var notFunctionName = '[^A-Za-z0-9$_]';
-  var regex = new RegExp('(^|' + notFunctionName + ')(' + disallowedString + ')' + notFunctionName + '*\\(', 'gm');
+
+  var regex = new RegExp(disallowedString, 'gm');
   var match = regex.exec(largeString);
+
   // Return the match accounting for the first submatch length.
-  return match != null ? match.index + match[1].length : -1;
+  return match != null ? match.index : -1;
 }
 
 // returns undefined || obj
