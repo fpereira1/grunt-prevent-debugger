@@ -4,8 +4,3 @@ node_js:
   - '0.12'
   - 'iojs'
 sudo: false
-before_script:
-  - "npm i -g mocha"
-#  - "npm i -g istanbul"
-after_script:
-  - "npm test"
