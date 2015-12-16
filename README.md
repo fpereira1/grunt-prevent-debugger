@@ -1,6 +1,6 @@
 # grunt-prevent-debugger
 
-[![npm version](https://badge.fury.io/js/grunt-prevent-debugger.svg)](https://badge.fury.io/js/grunt-prevent-debugger) [![Build Status](https://travis-ci.org/fpereira1/grunt-prevent-debugger.png?branch=master)](https://travis-ci.org/fpereira1/grunt-prevent-debugger)
+[![Build Status](https://travis-ci.org/fpereira1/grunt-prevent-debugger.png?branch=master)](https://travis-ci.org/fpereira1/grunt-prevent-debugger) [![npm version](https://badge.fury.io/js/grunt-prevent-debugger.svg)](https://badge.fury.io/js/grunt-prevent-debugger) [![Dependency Status](https://david-dm.org/fpereira1/grunt-prevent-debugger.svg)](https://david-dm.org/fpereira1/grunt-prevent-debugger)
 
 Grunt plugin for preventing you from accidentally comitting a `debugger` into your project.
 
