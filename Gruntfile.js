@@ -30,7 +30,11 @@ module.exports = function (grunt) {
         }
       }
     },
-
+    release : {
+      options : {
+        changelog : true
+      }
+    },
     'prevent-debugger': {
       all: {
         src: [
