@@ -1,6 +1,6 @@
 {
   "name": "grunt-prevent-debugger",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Grunt task for checking that debugger don't make it into committed code",
   "main": "Gruntfile.js",
   "scripts": {
