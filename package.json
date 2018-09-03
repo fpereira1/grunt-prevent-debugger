@@ -7,7 +7,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "bluebird": "3.x",
+    "bluebird": "3.5.1",
     "win-spawn": "2.x"
   },
   "devDependencies": {
